@@ -1,0 +1,7 @@
+
+CREATE TABLE IF NOT EXISTS `article` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(255),
+  `content` VARCHAR(255),
+  PRIMARY KEY (`id`)
+);
