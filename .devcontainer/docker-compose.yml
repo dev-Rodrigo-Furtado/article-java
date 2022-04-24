@@ -1,6 +1,8 @@
 version: '3'
 services:
   app:
+    image: maven:3.8.4-jdk-11
     volumes:
-      - .:/workspace:cached
+      - ../.:/workspace:cached
+      - ./.docker/.m2:/root/.m2
     command: /bin/sh -c "while sleep 1000; do :; done"

@@ -1,7 +1,6 @@
 {
 	"name": "Existing Docker Compose (Extend)",
 	"dockerComposeFile": [
-		"../docker-compose-dev.yml",
 		"docker-compose.yml",
 	],
 	"service": "app",
@@ -11,7 +10,6 @@
 		"vscjava.vscode-java-pack",
 		"GabrielBB.vscode-lombok",
 		"steoates.autoimport",
-		"humao.rest-client",
-		"dracula-theme.theme-dracula"
+		"humao.rest-client"
 	]
 }
