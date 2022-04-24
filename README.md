@@ -19,3 +19,9 @@ Run the command bellow and wait:
 ```
 
 After started, you can test it by exporting the collection Article.postman_collection.json on Postman and running the requests available
+
+## Test Coverage
+
+This project has 100% test coverage
+
+![image](https://user-images.githubusercontent.com/15523493/164997742-4b0ac17d-d002-4836-bf67-b4f162b0df87.png)
