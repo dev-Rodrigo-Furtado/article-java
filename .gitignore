@@ -1,5 +1,6 @@
 HELP.md
 
+.mvn
 .docker
 /target/*
 !target/articles*.jar
